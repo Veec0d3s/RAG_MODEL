@@ -1,0 +1,20 @@
+[project]
+name = "rag-chatbot"
+version = "0.1.0"
+description = "RAG Chatbot using Groq, ChromaDB, and Streamlit"
+requires-python = ">=3.9"
+
+dependencies = [
+    "streamlit",
+    "langchain",
+    "langchain-community",
+    "langchain-groq",
+    "chromadb",
+    "sentence-transformers",
+    "tiktoken",
+    "python-dotenv",
+    "groq"
+]
+
+[tool.setuptools]
+packages = ["."]
