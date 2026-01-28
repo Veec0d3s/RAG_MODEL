@@ -33,6 +33,19 @@ This project was built as part of an **AI/ML bootcamp**, focusing on real-world 
 
 ## 📂 Project Structure
 
+````text
+├── app/                   # Application-related files (UI or app logic)
+├── __pycache__/           # Python cache files
+├── chroma_db/             # Persistent Chroma vector database
+├── data/                  # Source documents for ingestion
+├── main.py                # Application entry point
+├── rag_engine.py          # Core RAG pipeline (retrieval + generation)
+├── test_chunking.ipynb    # Notebook for testing chunking strategies
+├── Dockerfile             # Docker image configuration
+├── docker-compose.yml     # Multi-container Docker setup
+├── requirements.txt       # Python dependencies
+├── pyproject.toml         # Project configuration and metadata
+└── README.md              # Project documentation
 ```text
 ├── data/                  # Raw documents (PDFs, text files)
 ├── embeddings/            # Stored vector embeddings
@@ -43,7 +56,7 @@ This project was built as part of an **AI/ML bootcamp**, focusing on real-world 
 ├── app.py                 # Streamlit application (if applicable)
 ├── requirements.txt       # Project dependencies
 └── README.md              # Project documentation
-```
+````
 
 ---
 
@@ -143,7 +156,7 @@ streamlit run app.py
 
 ## 👩🏽‍💻 Author
 
-**Vanessa**
+**Vanie**
 Computer Scientist | AI/ML Enthusiast
 
 ---
